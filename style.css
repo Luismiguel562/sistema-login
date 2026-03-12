@@ -1,0 +1,107 @@
+/* Reset */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* Página */
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#4f4fc8,#1b0f2b);
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+}
+
+/* Caixa do login */
+.login-box{
+background:#1e1e2f;
+
+padding:40px;
+width:320px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Título */
+h1{
+text-align:center;
+margin-bottom:25px;
+color:#a855f7;
+}
+
+/* Labels */
+label{
+display:block;
+margin-top:10px;
+margin-bottom:5px;
+font-size:14px;
+}
+
+/* Inputs */
+input{
+width:100%;
+padding:10px;
+border-radius:8px;
+border:1px solid #333;
+background:#2a2a40;
+color:white;
+outline:none;
+transition:0.3s;
+}
+
+/* efeito quando clica */
+input:focus{
+border-color:#a855f7;
+box-shadow:0 0 5px #a855f7;
+}
+
+/* botão */
+button{
+width:100%;
+padding:12px;
+margin-top:20px;
+background:#a855f7;
+border:none;
+border-radius:8px;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+/* efeito hover */
+button:hover{
+background:#9333ea;
+}
+
+.navbar{
+position: fixed;
+cursor: pointer;
+top: 0;
+left: 0;
+width: 100%;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 30px;
+background-color: #121212;
+color: white;
+}
+
+.nav-links a{
+color: white;
+text-decoration: none;
+margin-left: 20px;
+}
+p{
+    text-align: center;
+    padding-top:10px;
+}
+a{
+    color: #b6b6f1;
+}
