@@ -26,7 +26,7 @@ const dados = await resposta.json();
 
 if(dados.sucesso){
 
-alert("Login realizado!");
+window.location.href="dashboard.html";
 
 }
 else{
